@@ -1,4 +1,5 @@
 .works-page{
+    line-height: 1;
     max-width:1600px;
     width:100%;
     margin:0 auto;
@@ -11,7 +12,7 @@
             background-color: #000;
             border-right:1px solid #100e11;
             float: left;
-            width:33.333%;
+            width:calc(33.333% - 1px);
             cursor: pointer;
             &:nth-child(3), &:nth-child(6), &:nth-child(9){border-right:none;};
             opacity:0.2;
@@ -30,6 +31,7 @@
     position:absolute;
     top:128px;
     left:50%;
+    z-index:20;
     transform:translate(-50%, 0);
     .view-img{
         button{

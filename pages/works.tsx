@@ -54,7 +54,7 @@ export default function Works() {
     return (
         <>
             <div className="works-page">
-                <h2 className="sub-title">WORKs</h2>
+                <h2 className="sub-title" data-aos="fade-right">WORKs</h2>
                 <ul>
                     {
                         data.map((item) => {
