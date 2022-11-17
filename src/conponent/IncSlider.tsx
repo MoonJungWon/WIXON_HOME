@@ -1,7 +1,7 @@
 import React from "react";
 import Sliderr from "react-slick";
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css"
+// import "slick-carousel/slick/slick-theme.css";
 
 export default function IncSlider() {
     var settings = {

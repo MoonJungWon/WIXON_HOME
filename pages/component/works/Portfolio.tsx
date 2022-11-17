@@ -2,9 +2,9 @@
 import React, { useState } from 'react';
 
 export const Portfolio = (props:any) => {
-    console.log(props)
+    // console.log(props)
     return (
-        <li onClick={() => {props.handlePopToggle(props.modalImage.src)}}>
+        <li onClick={() => {props.handlePopToggle(props.modalImage.src, props.index)}}>
             <img src={props.src.src} alt="" />
         </li>
     )
