@@ -142,7 +142,7 @@ export default function Header(){
                         <ul id="gnb" className="gnb">
                             <li id="gnbInc" onClick={clickgnb}><Link href="/Inc">WIXON ASSOCIATES INC</Link></li>
                             <li id="gnbBusiness" onClick={clickgnb}><Link href="/Business">WXN BUSINESS</Link></li>
-                            <li id="gnbWorks" onClick={clickgnb}><Link href="/Works">WORKs</Link></li>
+                            <li id="gnbWorks" onClick={clickgnb}><Link href="/works">WORKs</Link></li>
                             <li id="gnbContact" onClick={clickgnb}><Link href="/Contact">CONTACT TO WXN</Link></li>
                         </ul>
                     </nav>
