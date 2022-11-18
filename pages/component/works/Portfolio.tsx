@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 
-export const Portfolio = (props:any) => {
+const Portfolio = (props:any) => {
     // console.log(props)
     return (
         <li onClick={() => {props.handlePopToggle(props.modalImage, props.index)}}>
@@ -9,3 +9,5 @@ export const Portfolio = (props:any) => {
         </li>
     )
 }
+
+export default Portfolio

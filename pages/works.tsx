@@ -1,7 +1,6 @@
 
 import React, { useState, useRef, useEffect  } from 'react';
-import { Portfolio } from './component/works/Portfolio';
-import HeadInfo from '../src/component/HeadInfo';
+import Portfolio from './component/works/Portfolio';
 
 export default function Works() {
     const [data, setData] = useState([
@@ -69,16 +68,19 @@ export default function Works() {
             </div>
             {
                 popToggle && 
-                <div className='works-popup'>
-                    <div className="view-img">
-                        <button><img src="/images/close_btn.png" onClick={() => {setPopToggle(!popToggle)}}/></button>
-                        <img src={modalImage} alt="" />
+                <>
+                    <div className='works-popup'> 3
+                        <div className="view-img">
+                            <button><img src="/images/close_btn.png" onClick={() => {setPopToggle(!popToggle)}}/></button>
+                            <img src={modalImage} alt="" />
+                        </div>
+                        <div className="view-btn">
+                            <span onClick={() => {handlePrev()}}><img src="/images/prev_btn.png" alt="prev_btn" /></span>
+                            <span onClick={() =>{handleNext()}}><img src="/images/next_btn.png" alt="next_btn" /></span>
+                        </div>
                     </div>
-                    <div className="view-btn">
-                        <span onClick={() => {handlePrev()}}><img src="/images/prev_btn.png" alt="prev_btn" /></span>
-                        <span onClick={() =>{handleNext()}}><img src="/images/next_btn.png" alt="next_btn" /></span>
-                    </div>
-                </div>
+                    <div className="glass"></div>
+                </>
             }
         </>
         

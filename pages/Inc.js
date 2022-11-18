@@ -5,7 +5,7 @@ import IncSlider from '../src/component/IncSlider';
 export default function Inc() {
   return (
     <>
-        <HeadInfo title="WIXON ASSOCIATES INC" />
+        <HeadInfo titleProps="WIXON ASSOCIATES INC" />
         <div className="inc">
           <div className="inc__content">
             <div className="inc__inner">

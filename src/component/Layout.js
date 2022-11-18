@@ -2,7 +2,7 @@ import HeadInfo from './HeadInfo';
 import Header from './Header';
 import Footer from './Footer';
 
-export default function Layout({children}) {
+ const Layout = ({children}: any) => {
     return (
         <>
             <HeadInfo />
@@ -14,3 +14,5 @@ export default function Layout({children}) {
         </>
     )
   }
+
+  export default Layout;
