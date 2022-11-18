@@ -1,6 +1,53 @@
 import Link from 'next/link';
+import React, { useEffect } from "react";
 
 export default function Main(){
+    /*  
+    //////////////////////// 다른페이지 상속으로 인한... 기능 보류........
+    var zindexno = 1;
+    useEffect(() => {
+        bnr_0();
+        setInterval(bnr_0,24000);
+        setTimeout(function(){
+            bnr_1();
+            setInterval(bnr_1,24000);
+        },8000);
+        setTimeout(function(){
+            bnr_2();
+            setInterval(bnr_2,24000);
+        },16000);
+        function bnr_0(){
+            bnrfirst.classList.add('bnr__action');
+            bnrfirst.classList.remove('bnr__nonaction');
+            bnrfirst.style.zIndex = zindexno;
+            zindexno++;
+            setTimeout(function(){
+                bnrfirst.classList.remove('bnr__action');
+                bnrfirst.classList.add('bnr__nonaction');
+            }, 6000)
+        }
+        function bnr_1(){
+            bnrsecond.classList.add('bnr__action');
+            bnrsecond.classList.remove('bnr__nonaction');
+            bnrsecond.style.zIndex = zindexno;
+            zindexno++;
+            setTimeout(function(){
+                bnrsecond.classList.remove('bnr__action');
+                bnrsecond.classList.add('bnr__nonaction');
+            }, 6000)
+        }
+        function bnr_2(){
+            bnrthird.classList.add('bnr__action');
+            bnrthird.classList.remove('bnr__nonaction');
+            bnrthird.style.zIndex = zindexno;
+            zindexno++;
+            setTimeout(function(){
+                bnrthird.classList.remove('bnr__action');
+                bnrthird.classList.add('bnr__nonaction');
+            }, 6000)
+        }
+    })
+    */
     
     return (
         <>
@@ -42,10 +89,10 @@ export default function Main(){
                 </div>
                 <div className="banner">
                     <ul className="banner__inner">
-                        <li className="bnr__0">
+                        <li id="bnrfirst" className="bnr__0 bnr__nonaction">
                             <p className="bnr__num">01</p>
                             <div className="bnr__back bnr__back0">
-                                <div className="bnr__desc">
+                                <div className="bnr__desc bnr__group0">
                                     <p className="acc bnr__unact">-</p>
                                     <p className="acc bnr__act">+</p>
                                     <p className="bnr__unact">글로벌 해양시장에 IT기술을 활용한<br/>전문적인 해양 솔루션 개발</p>
@@ -56,15 +103,15 @@ export default function Main(){
                                     </p>
                                     <p className="bnr__en">marine solutions<br/>using IT technology</p>
                                 </div>
-                                <div className="bnr__img">
+                                <div className="bnr__img bnr__group0">
                                     <img src="./img/bn0_ico.png" alt="back_img" />
                                 </div>
                             </div>
                         </li>
-                        <li className="bnr__1">
+                        <li id="bnrsecond" className="bnr__1 bnr__nonaction">
                             <p className="bnr__num">02</p>
                             <div className="bnr__back bnr__back1">
-                                <div className="bnr__desc">
+                                <div className="bnr__desc bnr__group1">
                                     <p className="acc bnr__unact">-</p>
                                     <p className="acc bnr__act">+</p>
                                     <p className="bnr__unact">IT를 기반으로 하는 전문적이고 체계적인<br/>고전음악 솔루션 제공</p>
@@ -75,15 +122,15 @@ export default function Main(){
                                     </p>
                                     <p className="bnr__en">OPUSCLAM<br/>Classic music Specialist</p>
                                 </div>
-                                <div className="bnr__img">
+                                <div className="bnr__img bnr__group1">
                                     <img src="./img/bn1_ico.png" alt="back_img" />
                                 </div>
                             </div>
                         </li>
-                        <li className="bnr__2">
+                        <li id="bnrthird" className="bnr__2 bnr__nonaction">
                             <p className="bnr__num">03</p>
                             <div className="bnr__back bnr__back2">
-                                <div className="bnr__desc">
+                                <div className="bnr__desc bnr__group2">
                                     <p className="acc bnr__unact">-</p>
                                     <p className="acc bnr__act">+</p>
                                     <p className="bnr__unact">웹사이트 개발 및 디자인, 모바일/앱개발등<br/>웹을 기반으로 하는 통합서비스를 제공</p>
@@ -94,7 +141,7 @@ export default function Main(){
                                     </p>
                                     <p className="bnr__en">Web-based Service<br/>Development</p>
                                 </div>
-                                <div className="bnr__img">
+                                <div className="bnr__img bnr__group2">
                                     <img src="./img/bn2_ico.png" alt="back_img" />
                                 </div>
                             </div>
