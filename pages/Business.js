@@ -32,7 +32,7 @@ export default function Business() {
     }
     return (
     <>
-        <HeadInfo title="WXN BUSINESS" />
+        <HeadInfo titleProps="WXN BUSINESS" />
         <div id="business" className="business">
             <div className="marine">
                 <div className="marine__back"><img src="/img/mar_2.png"/></div>

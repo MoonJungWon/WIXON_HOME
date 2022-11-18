@@ -1,7 +1,7 @@
 
 import React, { useState, useRef, useEffect  } from 'react';
 import Portfolio from './component/works/Portfolio';
-
+import HeadInfo from '../src/component/HeadInfo'
 export default function Works() {
     const [data, setData] = useState([
         {id : 0, toggle :false, src : '/images/list01.png', modalImage : '/images/view01.jpg'},
@@ -45,7 +45,7 @@ export default function Works() {
 
     return (
         <>
-            <HeadInfo title="WXN WORKs" />
+            <HeadInfo titleProps="WXN WORKs" />
             <div className="works-page">
                 <h2 className="sub-title" data-aos="fade-right">WORKs</h2>
                 <ul>

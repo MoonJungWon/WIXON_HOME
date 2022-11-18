@@ -4,7 +4,7 @@ export default function Contact() {
     const [toggle, setToggle] = useState(false)
     return (
         <>
-            <HeadInfo title="WXN CONTACT" />
+            <HeadInfo titleProps="WXN CONTACT" />
             <div className='map-page'>
                 <div>
                     <button onClick={() => {setToggle(!toggle)}}>PROJECT REQUEST</button>
