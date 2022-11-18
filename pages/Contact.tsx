@@ -3,18 +3,19 @@ export default function Contact() {
     const [toggle, setToggle] = useState(false)
     return (
         <>
-            <h2 className="sub-title" data-aos="fade-right">title</h2>
             <div className='map-page'>
-                <button onClick={() => {setToggle(!toggle)}}>클릭하면 생기고 사라진다.</button>
                 <div>
-                    wxn 20sdasdasda
-                    asdfasdf
+                    <button onClick={() => {setToggle(!toggle)}}>PROJECT REQUEST</button>
+                    <button>DOWNLOAD WXN PDF</button>
+                </div>
+                <h2 className="sub-title" data-aos="fade-right">CONTACT TO WXN</h2>
+                <div>
+                   <img src="" alt="" />
                 </div>
                 <div>
-                    asdasd asdasd asdasda asdasd
+                    WIXON.WHO INVARIABLE EXISTENCE ON THE NEW ERA "WIXON ASSOCIATES INC."
                 </div>
                 <div>
-                    지도 영역
                     <button>google map</button>
                     <button>naver map</button>
                 </div>
