@@ -1,4 +1,4 @@
-import HeadInfo from '../src/conponent/HeadInfo';
+import HeadInfo from '../src/component/HeadInfo';
 
 export default function Business() {
     if(process.browser){
@@ -64,7 +64,9 @@ export default function Business() {
                 <p className="marine__downarrow"><img src="/img/inc_arrow.png"/></p>
             </div>
             <div className="opus">
-                <div className="opus__back"><img src="/img/opu_3.png"/></div>
+                <div className="opus__back">
+                    <img src="/img/opu_3.png"/>
+                </div>
                 <div className="opus__intro">
                     <h3 data-aos="fade-right" data-aos-offset="300">classic specialist opusclam</h3>
                     <h4 data-aos="fade-up" data-aos-duration="3000">윅슨은 고전음악과 관련한 포털 플랫폼 <b>OPUSCLAM</b>을 개발하고 있습니다.</h4>
@@ -72,7 +74,9 @@ export default function Business() {
                         오퍼스클램은 고전음악과 연관된 모든 데이터, 온라인교육, 취업서비스, 다양한 온라인판매 서비스등 고전음악과 관련한 모든 서비스를  망라한 고전음악 전문 플랫폼입니다.<br/>
                         전공자뿐만 아니라 전문 연주자 그리고 음악애호가에게 IT를 기반으로 하는 전문적이고 체계적인 고전음악 솔루션을 제공합니다.
                     </p>
-                    <div className="opus__middle__img"><img src="/img/opu_2.png"/></div>
+                    <div className="opus__middle__img">
+                        <img src="/img/opu_2.png"/>
+                    </div>
                     <p className="opus__intro__middle" data-aos="fade-up" data-aos-duration="3000">
                         OPUSCLAM<br/>
                         WIXON is developing a portal platform OPUSCLAM related to classical music.

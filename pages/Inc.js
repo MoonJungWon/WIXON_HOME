@@ -1,6 +1,6 @@
-import HeadInfo from '../src/conponent/HeadInfo';
+import HeadInfo from '../src/component/HeadInfo';
 import Link from 'next/link';
-import IncSlider from '../src/conponent/IncSlider';
+import IncSlider from '../src/component/IncSlider';
 
 export default function Inc() {
   return (

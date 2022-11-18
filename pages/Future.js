@@ -1,6 +1,6 @@
-import HeadInfo from '../src/conponent/HeadInfo';
+import HeadInfo from '../src/component/HeadInfo';
 import Link from 'next/link';
-import FutureSlider from '../src/conponent/FutureSlider';
+import FutureSlider from '../src/component/FutureSlider';
 
 export default function Future() {
   return (

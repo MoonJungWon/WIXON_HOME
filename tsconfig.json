@@ -15,6 +15,7 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/Inc.js", "pages/Future.js", "pages/Business.js", "src/component/Footer.js",
+  "src/component/FutureSlider.js", "src/component/Header.js", "src/component/HeadInfo.js", "src/component/IncSlider.js", "src/component/Layout.js", "src/component/Main.js"],
   "exclude": ["node_modules"]
 }
