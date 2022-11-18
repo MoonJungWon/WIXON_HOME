@@ -1,6 +1,7 @@
 
 import React, { useState, useRef, useEffect  } from 'react';
 import { Portfolio } from './component/works/Portfolio';
+import HeadInfo from '../src/component/HeadInfo';
 
 export default function Works() {
     const [data, setData] = useState([
@@ -45,6 +46,7 @@ export default function Works() {
 
     return (
         <>
+            <HeadInfo title="WXN WORKs" />
             <div className="works-page">
                 <h2 className="sub-title" data-aos="fade-right">WORKs</h2>
                 <ul>

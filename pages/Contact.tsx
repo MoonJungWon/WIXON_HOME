@@ -1,8 +1,10 @@
 import React, { useState, useRef  } from 'react';
+import HeadInfo from '../src/component/HeadInfo';
 export default function Contact() {
     const [toggle, setToggle] = useState(false)
     return (
         <>
+            <HeadInfo title="WXN CONTACT" />
             <div className='map-page'>
                 <div>
                     <button onClick={() => {setToggle(!toggle)}}>PROJECT REQUEST</button>
